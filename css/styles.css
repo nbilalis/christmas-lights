@@ -1,0 +1,22 @@
+#tree {
+	color: green;
+	font-size: 3.5em;
+	text-align: center;
+}
+
+#tree div {
+	transition: color ease-out 5s;
+	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="30" style="font-size: 20px;"><text y="15">✨</text></svg>'), auto;
+}
+
+#tree div:hover {
+  transition: color ease-out .5s;
+}
+
+.on {
+	color: yellow;
+}
+
+#stub {
+	font-size: .5em;
+}
